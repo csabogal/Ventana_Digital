@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_web_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Página Web"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/et_web_url"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="https://www.poligran.edu.co"
+            android:inputType="textUri" />
+
+        <Button
+            android:id="@+id/btn_web_cargar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cargar" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

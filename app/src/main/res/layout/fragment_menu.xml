@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#f8f9fa">
+
+    <Button
+        android:id="@+id/btn_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perfil" />
+
+    <Button
+        android:id="@+id/btn_fotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fotos" />
+
+    <Button
+        android:id="@+id/btn_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Video" />
+
+    <Button
+        android:id="@+id/btn_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web" />
+
+    <Button
+        android:id="@+id/btn_botones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Botones" />
+
+</LinearLayout>
